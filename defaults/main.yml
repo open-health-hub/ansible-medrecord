@@ -1,2 +1,4 @@
 ---
 # defaults file for ansible-medrecord
+
+medrecord_repo: https://github.com/MEDvision/medrecord.git

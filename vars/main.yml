@@ -1,2 +1,6 @@
 ---
 # vars file for ansible-medrecord
+
+medrecord_user: medrecord
+medrecord_base: /opt
+medrecord_repo: https://github.com/MEDvision/medrecord.git

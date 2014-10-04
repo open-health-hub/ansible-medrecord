@@ -11,7 +11,9 @@ The desire to play with openEHR necessary...
 Role Variables
 --------------
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+Defaults to pulling MedRecord from https://github.com/MEDvision/medrecord.git and installing to /opt for user medrecord
+
+Check in vars and defaults
 
 Dependencies
 ------------

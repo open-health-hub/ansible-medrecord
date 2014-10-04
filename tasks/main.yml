@@ -1,2 +1,4 @@
 ---
 # tasks file for ansible-medrecord
+
+git: repo={{ medrecord_repo }} dest={{ medrecord_base }}
