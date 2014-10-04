@@ -1,8 +1,8 @@
 ---
 galaxy_info:
-  author: your name
+  author: Rob Dyke
   description: 
-  company: your company (optional)
+  company: openGPSoC
   # Some suggested licenses:
   # - BSD (default)
   # - MIT
@@ -10,7 +10,7 @@ galaxy_info:
   # - GPLv3
   # - Apache
   # - CC-BY
-  license: license (GPLv2, CC-BY, etc)
+  license: license (MIT)
   min_ansible_version: 1.2
   #
   # Below are all platforms currently available. Just uncomment
@@ -113,7 +113,7 @@ galaxy_info:
   #- development
   #- monitoring
   #- networking
-  #- packaging
+  - packaging
   #- system
   #- web
 dependencies: []
