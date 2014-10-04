@@ -16,7 +16,9 @@ A description of the settable variables for this role should go here, including 
 Dependencies
 ------------
 
-Java, Maven, Gradle, Git
+Use robdyke.java robdyke.maven MagneDavidsen.gradle get the deps installed
+
+Needs Java, Maven, Gradle, Git
 
 Example Playbook
 -------------------------
