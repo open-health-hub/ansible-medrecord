@@ -13,7 +13,6 @@ galaxy_info:
   - system
   - development
 
-#dependencies:
-#  - robdyke.ansible-oracle_java7-role
-#  - robdyke.gradle
-#  - robdyke.maven
+dependencies:
+  - briancoca.oracle_java7
+  - robdyke.maven
