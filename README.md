@@ -11,23 +11,25 @@ The desire to play with openEHR necessary...
 Role Variables
 --------------
 
-Defaults to pulling MedRecord from https://github.com/MEDvision/medrecord.git and installing to /opt for user medrecord
+Defaults to pulling MedRecord from https://github.com/MEDvision/medrecord.git and installing to /opt
 
-Check in vars and defaults
+- medrecord_user: medrecord
+- medrecord_base: /opt/medrecord
+- medrecord_repo: https://github.com/MEDvision/medrecord.git
 
 Dependencies
 ------------
 
-Use robdyke.java robdyke.maven MagneDavidsen.gradle get the deps installed
+- briancoca.oracle_java7
+- robdyke.maven
 
-Needs Java, Maven, Gradle, Git
 
 Example Playbook
 -------------------------
 
     - hosts: servers
       roles:
-         - { role: openGPSoC/ansible-medrecord, x: 42 }
+         - ansible-medrecord
 
 License
 -------
