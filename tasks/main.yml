@@ -2,5 +2,5 @@
 # tasks file for ansible-medrecord
 - apt: name=git state=present
 - git: repo={{ medrecord_repo }} dest={{ medrecord_base }}
-- lineinfile: 'dest=/opt/medrecord/java/gradlew regexp=^DEFAULT_JVM_OPTS line=DEFAULT_JVM_OPTS="-Xms256m -Xmx1024m"'
-- lineinfile: 'dest=/etc/profile.d/jdk.sh line=export JAVA_OPTS="-Xms512m -Xmx1024m"'
+- lineinfile: "dest=/opt/medrecord/java/gradlew regexp=^DEFAULT_JVM_OPTS line=DEFAULT_JVM_OPTS=\"-Xms256m -Xmx1024\""
+- lineinfile: "dest=/etc/profile.d/jdk.sh line=export JAVA_OPTS=\"-Xms512m -Xmx1024m\""
