@@ -8,6 +8,9 @@ Requirements
 
 The desire to play with openEHR necessary...
 
+Created with ansible 1.7.2 for use with Vagrant 1.6.5
+
+
 Role Variables
 --------------
 
