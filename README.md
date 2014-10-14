@@ -8,7 +8,18 @@ Requirements
 
 The desire to play with openEHR necessary...
 
-Created with ansible 1.7.2 for use with Vagrant 1.6.5
+
+Galaxy and Vagrant
+------------
+Created for ansible 1.7.2 for use with Vagrant 1.6.5 for MEDrecord.nl provisioning of Vagrant box on Ubuntu/Trusty64.
+
+Install with Ansible Galaxy as follows:
+- ansible-galaxy install robdyke.medrecord
+
+Vagrant
+- git clone https://github.com/openGPSoC/vagrant-medrecord.git
+- cd vagrant-medrecord
+- vagrant up
 
 
 Role Variables
